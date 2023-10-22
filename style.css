@@ -7,7 +7,7 @@
   }
 
   .navbar a {
-    float: right;
+    float:right;
     display: block;
     color: #eeeeee;
     text-align: center;
@@ -19,3 +19,29 @@
   .navbar a:hover {
     color: #1c87c9;
   }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+   flex: 0 0 calc(33.33% - 30px);
+   margin: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
